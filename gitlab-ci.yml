@@ -1,0 +1,6 @@
+stages:
+  - build
+build-job:
+  stage: build
+  script:
+    - echo "Building the project for free"
